@@ -23,6 +23,7 @@ from .vdb.chroma_config import ChromaConfig
 from .vdb.couchbase_config import CouchbaseConfig
 from .vdb.elasticsearch_config import ElasticsearchConfig
 from .vdb.lindorm_config import LindormConfig
+from .vdb.polarsearch_config import PolarSearchConfig
 from .vdb.milvus_config import MilvusConfig
 from .vdb.myscale_config import MyScaleConfig
 from .vdb.oceanbase_config import OceanBaseVectorConfig
@@ -279,6 +280,7 @@ class MiddlewareConfig(
     UpstashConfig,
     TidbOnQdrantConfig,
     LindormConfig,
+    PolarSearchConfig,
     OceanBaseVectorConfig,
     BaiduVectorDBConfig,
 ):

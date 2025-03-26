@@ -144,6 +144,10 @@ class Vector:
                 from core.rag.datasource.vdb.lindorm.lindorm_vector import LindormVectorStoreFactory
 
                 return LindormVectorStoreFactory
+            case VectorType.POLARSEARCH:
+                from core.rag.datasource.vdb.polarsearch.polarsearch_vector import PolarSearchVectorStoreFactory
+
+                return PolarSearchVectorStoreFactory
             case VectorType.OCEANBASE:
                 from core.rag.datasource.vdb.oceanbase.oceanbase_vector import OceanBaseVectorFactory
 

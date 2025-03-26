@@ -657,6 +657,7 @@ class DatasetRetrievalSettingApi(Resource):
                 | VectorType.PGVECTOR
                 | VectorType.TIDB_ON_QDRANT
                 | VectorType.LINDORM
+                | VectorType.POLARSEARCH
                 | VectorType.COUCHBASE
                 | VectorType.MILVUS
             ):
@@ -702,6 +703,7 @@ class DatasetRetrievalSettingMockApi(Resource):
                 | VectorType.COUCHBASE
                 | VectorType.PGVECTOR
                 | VectorType.LINDORM
+                | VectorType.POLARSEARCH
             ):
                 return {
                     "retrieval_method": [

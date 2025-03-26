@@ -18,6 +18,7 @@ class VectorType(StrEnum):
     ELASTICSEARCH = "elasticsearch"
     ELASTICSEARCH_JA = "elasticsearch-ja"
     LINDORM = "lindorm"
+    POLARSEARCH = "polarsearch"
     COUCHBASE = "couchbase"
     BAIDU = "baidu"
     VIKINGDB = "vikingdb"
